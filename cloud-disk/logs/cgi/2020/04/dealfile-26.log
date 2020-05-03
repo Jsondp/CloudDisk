@@ -1,0 +1,102 @@
+[2020-04-26 00:12:14]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:12:14]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:20:12]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:20:12]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:21:14]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:14]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:21:37]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:37]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:26:16]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:26:16]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Makefile.Debug",
+    "md5": "fc7f3e94d9e67199560b84097e81be1f",
+    "token": "5b73e01e92a85136b8c5750ee8311ff0",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:26:16]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 5b73e01e92a85136b8c5750ee8311ff0, md5 = fc7f3e94d9e67199560b84097e81be1f, filename = Makefile.Debug
+[2020-04-26 00:26:16]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:26:19]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:26:19]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "login.h",
+    "md5": "e1379314759ae19c6f106854131d28f0",
+    "token": "5b73e01e92a85136b8c5750ee8311ff0",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:26:19]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 5b73e01e92a85136b8c5750ee8311ff0, md5 = e1379314759ae19c6f106854131d28f0, filename = login.h
+[2020-04-26 00:26:19]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:26:22]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:26:22]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "账号密码2.txt",
+    "md5": "c8d76e67e10f9c9ed90d1ed5bf23cc40",
+    "token": "5b73e01e92a85136b8c5750ee8311ff0",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:26:22]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 5b73e01e92a85136b8c5750ee8311ff0, md5 = c8d76e67e10f9c9ed90d1ed5bf23cc40, filename = 账号密码2.txt
+[2020-04-26 00:26:22]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:26:25]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:26:25]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.png",
+    "md5": "aca52818a90fb1ab6b9ba5499f23755e",
+    "token": "5b73e01e92a85136b8c5750ee8311ff0",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:26:25]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 5b73e01e92a85136b8c5750ee8311ff0, md5 = aca52818a90fb1ab6b9ba5499f23755e, filename = 1.png
+[2020-04-26 00:26:25]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:33:18]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:33:18]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:33:29]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:33:29]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.png",
+    "md5": "d41d8cd98f00b204e9800998ecf8427e",
+    "token": "5b73e01e92a85136b8c5750ee8311ff0",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:33:29]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 5b73e01e92a85136b8c5750ee8311ff0, md5 = d41d8cd98f00b204e9800998ecf8427e, filename = 1.png
+[2020-04-26 00:33:34]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:33:34]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.png",
+    "md5": "d41d8cd98f00b204e9800998ecf8427e",
+    "token": "986d8bf5fce1bcebf3ce96ffe2471a46",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:33:34]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 986d8bf5fce1bcebf3ce96ffe2471a46, md5 = d41d8cd98f00b204e9800998ecf8427e, filename = 1.png
+[2020-04-26 00:33:34]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:34:00]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2020-04-26 00:34:00]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.jpg",
+    "md5": "526e509780990642ed0a20b7e0bb50d3",
+    "token": "986d8bf5fce1bcebf3ce96ffe2471a46",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:34:00]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 986d8bf5fce1bcebf3ce96ffe2471a46, md5 = 526e509780990642ed0a20b7e0bb50d3, filename = 1.jpg
+[2020-04-26 00:35:50]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:35:50]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:36:02]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:36:02]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.jpg",
+    "md5": "526e509780990642ed0a20b7e0bb50d3",
+    "token": "986d8bf5fce1bcebf3ce96ffe2471a46",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:36:02]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 986d8bf5fce1bcebf3ce96ffe2471a46, md5 = 526e509780990642ed0a20b7e0bb50d3, filename = 1.jpg
+[2020-04-26 00:36:10]--[src_cgi/dealfile_cgi.c:695]--cmd = del
+[2020-04-26 00:36:10]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.jpg",
+    "md5": "526e509780990642ed0a20b7e0bb50d3",
+    "token": "7e93a20abac6ec4defd374d6a97e7144",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:36:10]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 7e93a20abac6ec4defd374d6a97e7144, md5 = 526e509780990642ed0a20b7e0bb50d3, filename = 1.jpg
+[2020-04-26 00:36:10]--[src_cgi/dealfile_cgi.c:329]--remove_file_from_storage ret = 0
+[2020-04-26 00:36:28]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2020-04-26 00:36:28]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "1.jpg",
+    "md5": "526e509780990642ed0a20b7e0bb50d3",
+    "token": "7e93a20abac6ec4defd374d6a97e7144",
+    "user": "MarioHo"
+}
+
+[2020-04-26 00:36:28]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = 7e93a20abac6ec4defd374d6a97e7144, md5 = 526e509780990642ed0a20b7e0bb50d3, filename = 1.jpg

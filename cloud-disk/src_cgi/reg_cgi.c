@@ -1,9 +1,9 @@
 /**
  * @file reg_cgi.c
  * @brief  注册事件后CGI程序
- * @author Mike
+ * @author Mario
  * @version 2.0
- * @date 2017年2月14日
+ * @date 2020年2月14日
  */
 
 #include "fcgi_config.h"
@@ -22,7 +22,7 @@
 #define REG_LOG_PROC         "reg"
 
 
-//解析用户注册信息的json包
+// 解析用户注册信息的json包
 int get_reg_info(char *reg_buf, char *user, char *nick_name, char *pwd, char *tel, char *email)
 {
     int ret = 0;
@@ -127,7 +127,7 @@ int user_register( char *reg_buf )
     }
     LOG(REG_LOG_MODULE, REG_LOG_PROC, "mysql_user = %s, mysql_pwd = %s, mysql_db = %s\n", mysql_user, mysql_pwd, mysql_db);
 
-    //获取注册用户的信息
+    // 获取注册用户的信息
     char user[128];
     char nick_name[128];
     char pwd[128];
@@ -140,7 +140,7 @@ int user_register( char *reg_buf )
     }
     LOG(REG_LOG_MODULE, REG_LOG_PROC, "user = %s, nick_name = %s, pwd = %s, tel = %s, email = %s\n", user, nick_name, pwd, tel, email);
 
-    //connect the database
+    // connect the database
     conn = msql_conn(mysql_user, mysql_pwd, mysql_db);
     if (conn == NULL)
     {
@@ -199,7 +199,7 @@ END:
 
 int main()
 {
-    //阻塞等待用户连接
+    // 阻塞等待用户连接
     while (FCGI_Accept() >= 0)
     {
         char *contentLength = getenv("CONTENT_LENGTH");
@@ -213,20 +213,20 @@ int main()
         }
         else
         {
-            len = atoi(contentLength); //字符串转整型
+            len = atoi(contentLength); // 字符串转整型
         }
 
-        if (len <= 0)//没有登陆用户信息
+        if (len <= 0)// 没有登陆用户信息
         {
             printf("No data from standard input.<p>\n");
             LOG(REG_LOG_MODULE, REG_LOG_PROC, "len = 0, No data from standard input\n");
         }
-        else //获取登陆用户信息
+        else // 获取登陆用户信息
         {
             char buf[4*1024] = {0};
             int ret = 0;
             char *out = NULL;
-            ret = fread(buf, 1, len, stdin); //从标准输入(web服务器)读取内容
+            ret = fread(buf, 1, len, stdin); // 从标准输入(web服务器)读取内容
             if(ret == 0)
             {
                 LOG(REG_LOG_MODULE, REG_LOG_PROC, "fread(buf, 1, len, stdin) err\n");

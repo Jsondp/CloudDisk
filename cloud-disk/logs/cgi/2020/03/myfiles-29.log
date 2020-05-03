@@ -1,0 +1,32 @@
+[2020-03-29 20:18:46]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-03-29 20:20:26]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-03-29 20:20:36]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-03-29 20:20:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "307ffa55e0d71cb187e447c1105ab9ab",
+    "user": "MarioHo"
+}
+
+[2020-03-29 20:20:36]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="MarioHo" 操作失败
+[2020-03-29 20:20:36]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-03-29 20:20:42]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-03-29 20:20:42]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "307ffa55e0d71cb187e447c1105ab9ab",
+    "user": "MarioHo"
+}
+
+[2020-03-29 20:20:42]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="MarioHo" 操作失败
+[2020-03-29 20:20:42]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-03-29 20:20:46]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-03-29 20:20:46]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "8b492773b7cb727296a1264650fea5d0",
+    "user": "MarioHo"
+}
+
+[2020-03-29 20:20:46]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="MarioHo" 操作失败
+[2020-03-29 20:20:46]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-03-29 20:20:48]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-03-29 20:20:48]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "8b492773b7cb727296a1264650fea5d0",
+    "user": "MarioHo"
+}
+
+[2020-03-29 20:20:48]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="MarioHo" 操作失败
+[2020-03-29 20:20:48]--[src_cgi/myfiles_cgi.c:176]--line = 0

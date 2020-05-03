@@ -26,6 +26,7 @@ CGI_SRC_PATH=src_cgi
 # 测试用
 main=main
 redis=redis
+
 # 项目用
 login=$(CGI_BIN_PATH)/login
 register=$(CGI_BIN_PATH)/register

@@ -109,7 +109,7 @@ int process_result_one(MYSQL *conn, char *sql_cmd, char *buf)
     int ret = 0;
     MYSQL_RES *res_set = NULL;  //结果集结构的指针
 
-    if (mysql_query(conn, sql_cmd)!= 0) //执行sql语句，执行成功返回0
+    if (mysql_query(conn, sql_cmd) != 0) //执行sql语句，执行成功返回0
     {
         print_error(conn, "mysql_query error!\n");
         ret = -1;
@@ -127,7 +127,7 @@ int process_result_one(MYSQL *conn, char *sql_cmd, char *buf)
     MYSQL_ROW row;
     ulong line = 0;
 
-    //mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
+    // mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
     line = mysql_num_rows(res_set);
     if (line == 0)
     {

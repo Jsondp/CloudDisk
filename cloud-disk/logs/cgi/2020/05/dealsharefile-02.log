@@ -1,0 +1,8 @@
+[2020-05-02 18:12:48]--[src_cgi/dealsharefile_cgi.c:552]--cmd = cancel
+[2020-05-02 18:12:48]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "Makefile",
+    "md5": "c319a9d4ce7c9f76d2a17a3d5d93c02b",
+    "user": "Mario"
+}
+
+[2020-05-02 18:12:48]--[src_cgi/dealsharefile_cgi.c:587]--user = Mario, md5 = c319a9d4ce7c9f76d2a17a3d5d93c02b, filename = Makefile

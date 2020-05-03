@@ -1,0 +1,22 @@
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "Mario"
+}
+
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:294]--user = Mario, pwd = e10adc3949ba59abbe56e057f20f883e
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:185]--tmp = Mario44293908791
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:201]--base64 = OUIi/KR4dbfPdV9MLanqrS0ZxLNK7pNJ
+[2020-04-28 16:22:06]--[src_cgi/login_cgi.c:303]--token = 636454722aef6c32213ee4b0af5753c5
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "Mario"
+}
+
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:294]--user = Mario, pwd = e10adc3949ba59abbe56e057f20f883e
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:185]--tmp = Mario71818469227
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:201]--base64 = JIcnrHbJEEwEHV7SvYNf1C0ZxLNK7pNJ
+[2020-04-28 16:23:50]--[src_cgi/login_cgi.c:303]--token = 6dba6b3bcf7031280824f3dfa6d54315

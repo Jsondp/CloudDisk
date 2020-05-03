@@ -44,7 +44,7 @@ if [ "$STOP" -eq 1 ];then
     echo "CGI 程序已经成功关闭, bye-bye ..."
 
 fi
-
+#../build-%{CurrentProject:Name}-%{CurrentKit:FileSystemName}-%{CurrentBuild:Name}
 
 # ******************************* 重新启动CGI进程 ******************************* 
 if [ "$START" -eq 1 ];then

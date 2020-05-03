@@ -34,15 +34,13 @@ int main ()
 
         if (contentLength != NULL) {
             len = strtol(contentLength, NULL, 10);
-        }
-        else {
+        } else {
             len = 0;
         }
 
         if (len <= 0) {
             printf("No data from standard input.<p>\n");
-        }
-        else {
+        } else {
             int i, ch;
 
             printf("Standard input:<br>\n<pre>\n");

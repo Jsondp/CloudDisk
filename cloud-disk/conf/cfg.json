@@ -11,7 +11,7 @@
 		"port": "3306",
 		"database": "cloud_disk",
 		"user": "root",
-		"password": "root"
+		"password": "123456"
 	},
 	
 	"dfs_path":
@@ -21,13 +21,13 @@
 	
 	"web_server":
 	{
-		"ip": "192.168.1.22",
+		"ip": "39.99.154.100",
 		"port": "80"
 	},
 	
-	"storage_web_server":
+	"storage_web_server":    
 	{
-		"ip": "192.168.1.22",
+		"ip": "39.99.154.100",
 		"port": "80"
 	}
 	

@@ -14,7 +14,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include "fdfs_client.h"
-#include "logger.h"
+#include "logger.h" //fdfs内置的日志库
 
 static void usage(char *argv[])
 {

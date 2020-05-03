@@ -1,0 +1,9 @@
+[2020-04-20 20:06:02]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2020-04-20 20:06:02]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Makefile.Debug",
+    "md5": "fc7f3e94d9e67199560b84097e81be1f",
+    "token": "af211974e00f3874280c4e2af291b62f",
+    "user": "MarioHo"
+}
+
+[2020-04-20 20:06:02]--[src_cgi/dealfile_cgi.c:730]--user = MarioHo, token = af211974e00f3874280c4e2af291b62f, md5 = fc7f3e94d9e67199560b84097e81be1f, filename = Makefile.Debug

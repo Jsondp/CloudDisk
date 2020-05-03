@@ -1,0 +1,1581 @@
+[2020-04-26 00:12:14]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:12:14]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:20:12]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:20:12]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:21:14]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:14]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:21:37]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:37]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:33:18]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:33:18]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 00:35:50]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:35:50]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 18:13:34]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 2
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2020-04-26 18:14:13]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 18:14:16]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 18:14:17]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 18:24:05]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 18:35:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 18:35:55]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 18:35:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 18:35:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 18:35:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 18:35:56]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 18:35:56]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 20:09:21]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:13]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:43:15]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:21]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:23]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:24]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:43:24]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:24]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:24]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:43:24]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:30]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:43:31]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:31]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:31]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:43:31]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:32]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:43:41]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:43:42]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:44:00]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:44:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:44:01]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:44:01]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:44:01]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:44:01]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:44:12]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:44:13]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:46:27]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:46:29]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:29]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:30]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:37]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:46:38]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:54]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:46:55]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:56]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:57]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:58]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:46:59]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:47:00]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:47:01]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:47:02]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:47:15]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:47:17]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:47:18]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:47:18]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:47:18]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:47:18]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:47:18]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:21]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:22]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:23]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:24]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:26]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:27]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:27]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:28]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:29]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:29]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:30]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:30]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:30]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:30]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:30]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:43]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:43]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:44]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:45]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:45]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:45]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:45]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:45]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:46]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:47]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:47]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:47]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:47]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:47]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:48]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:49]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:49]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:49]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:49]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:49]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:48:50]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:50:56]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:51:16]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:17]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:18]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:19]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:21]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:51:23]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:51:24]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:24]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:24]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:24]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:24]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:51:31]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:51:32]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:57:47]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:57:55]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:57:56]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:57:57]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:58:07]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:58:09]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-04-26 22:58:36]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"Mario",
+			"md5":	"c319a9d4ce7c9f76d2a17a3d5d93c02b",
+			"time":	"2018-12-21 19:29:22",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.230.138:80/group1/M00/00/00/wKjmilwdqtKAcOo5AABU8Itwcro6720927",
+			"size":	21744,
+			"type":	"null"
+		}]
+}
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:58:37]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:58:39]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2020-04-26 22:58:40]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Makefile",
+			"pv":	1
+		}]
+}

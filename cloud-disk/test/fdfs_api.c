@@ -84,7 +84,7 @@ int fdfs_upload_file(const char* filename, char* fileid)
 
     // 加载配置文件, 并初始化
     const char* conf_file = "conf/client.conf";
-	if ((result=fdfs_client_init(conf_file)) != 0)
+	if ((result = fdfs_client_init(conf_file)) != 0)
 	{
 		return result;
 	}
@@ -100,7 +100,7 @@ int fdfs_upload_file(const char* filename, char* fileid)
 	*group_name = '\0';
 
     // 通过tracker句柄得到一个可以访问的storage句柄
-	if ((result=tracker_query_storage_store(pTrackerServer, \
+	if ((result = tracker_query_storage_store(pTrackerServer, \
 	                &storageServer, group_name, &store_path_index)) != 0)
 	{
 		fdfs_client_destroy();

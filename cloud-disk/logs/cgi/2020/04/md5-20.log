@@ -1,0 +1,16 @@
+[2020-04-20 20:05:49]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "Makefile.Debug",
+    "md5": "fc7f3e94d9e67199560b84097e81be1f",
+    "token": "af211974e00f3874280c4e2af291b62f",
+    "user": "MarioHo"
+}
+
+[2020-04-20 20:05:49]--[src_cgi/md5_cgi.c:361]--user = MarioHo, token = af211974e00f3874280c4e2af291b62f, md5 = fc7f3e94d9e67199560b84097e81be1f, filename = Makefile.Debug
+[2020-04-20 20:16:52]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "login.h",
+    "md5": "e1379314759ae19c6f106854131d28f0",
+    "token": "ebd3878422153d3cc01c53eb024994cf",
+    "user": "MarioHo"
+}
+
+[2020-04-20 20:16:52]--[src_cgi/md5_cgi.c:361]--user = MarioHo, token = ebd3878422153d3cc01c53eb024994cf, md5 = e1379314759ae19c6f106854131d28f0, filename = login.h

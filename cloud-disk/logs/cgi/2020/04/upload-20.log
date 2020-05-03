@@ -1,0 +1,8 @@
+[2020-04-20 20:05:49]--[src_cgi/upload_cgi.c:616]--MarioHo成功上传[Makefile.Debug, 大小：372184, md5码：fc7f3e94d9e67199560b84097e81be1f]到本地
+[2020-04-20 20:05:49]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBq0iF6dkB2AK8izAAWt2D1RNpc2.Debug] succ!
+[2020-04-20 20:05:49]--[src_cgi/upload_cgi.c:456]--file url is: http://172.26.180.136:80/group1/M00/00/00/rBq0iF6dkB2AK8izAAWt2D1RNpc2.Debug
+[2020-04-20 20:05:49]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('fc7f3e94d9e67199560b84097e81be1f', 'group1/M00/00/00/rBq0iF6dkB2AK8izAAWt2D1RNpc2.Debug', 'http://172.26.180.136:80/group1/M00/00/00/rBq0iF6dkB2AK8izAAWt2D1RNpc2.Debug', '372184', 'Debug', 1) 文件信息插入成功
+[2020-04-20 20:16:52]--[src_cgi/upload_cgi.c:616]--MarioHo成功上传[login.h, 大小：1219, md5码：e1379314759ae19c6f106854131d28f0]到本地
+[2020-04-20 20:16:52]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBq0iF6dkrSAMUArAAAEw63M3C014689.h] succ!
+[2020-04-20 20:16:52]--[src_cgi/upload_cgi.c:456]--file url is: http://172.26.180.136:80/group1/M00/00/00/rBq0iF6dkrSAMUArAAAEw63M3C014689.h
+[2020-04-20 20:16:52]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('e1379314759ae19c6f106854131d28f0', 'group1/M00/00/00/rBq0iF6dkrSAMUArAAAEw63M3C014689.h', 'http://172.26.180.136:80/group1/M00/00/00/rBq0iF6dkrSAMUArAAAEw63M3C014689.h', '1219', 'h', 1) 文件信息插入成功

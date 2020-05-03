@@ -1,9 +1,9 @@
 /**
  * @file md5_cgi.c
  * @brief  秒传功能的cgi
- * @author Mike
+ * @author Mario
  * @version 2.0
- * @date 2017年2月25日
+ * @date 2020年2月25日
  */
 
 #include "fcgi_config.h"

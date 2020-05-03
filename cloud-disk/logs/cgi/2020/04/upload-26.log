@@ -1,0 +1,28 @@
+[2020-04-26 00:12:14]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:12:39]--[src_cgi/upload_cgi.c:616]--MarioHo成功上传[1.png, 大小：569, md5码：aca52818a90fb1ab6b9ba5499f23755e]到本地
+[2020-04-26 00:12:39]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBq0iF6kYXeABF02AAACOU0ERUg158.png] succ!
+[2020-04-26 00:12:39]--[src_cgi/upload_cgi.c:456]--file url is: http://172.26.180.136:80/group1/M00/00/00/rBq0iF6kYXeABF02AAACOU0ERUg158.png
+[2020-04-26 00:12:39]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('aca52818a90fb1ab6b9ba5499f23755e', 'group1/M00/00/00/rBq0iF6kYXeABF02AAACOU0ERUg158.png', 'http://172.26.180.136:80/group1/M00/00/00/rBq0iF6kYXeABF02AAACOU0ERUg158.png', '569', 'png', 1) 文件信息插入成功
+[2020-04-26 00:20:12]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:14]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:21:37]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:26:48]--[src_cgi/upload_cgi.c:616]--MarioHo成功上传[1.png, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
+[2020-04-26 00:26:48]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBq0iF6kZMiADI5FAAAAAAAAAAA227.png] succ!
+[2020-04-26 00:26:48]--[src_cgi/upload_cgi.c:456]--file url is: http://172.26.180.136:80/group1/M00/00/00/rBq0iF6kZMiADI5FAAAAAAAAAAA227.png
+[2020-04-26 00:26:48]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/rBq0iF6kZMiADI5FAAAAAAAAAAA227.png', 'http://172.26.180.136:80/group1/M00/00/00/rBq0iF6kZMiADI5FAAAAAAAAAAA227.png', '0', 'png', 1) 文件信息插入成功
+[2020-04-26 00:33:18]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:33:50]--[src_cgi/upload_cgi.c:618]--MarioHo成功上传[1.jpg, 大小：92564, md5码：526e509780990642ed0a20b7e0bb50d3]到本地
+[2020-04-26 00:33:50]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/rBq0iF6kZm6AP6wGAAFplJEH-eA172.jpg] succ!
+[2020-04-26 00:33:50]--[src_cgi/upload_cgi.c:458]--file url is: http://39.99.154.100:80/group1/M00/00/00/rBq0iF6kZm6AP6wGAAFplJEH-eA172.jpg
+[2020-04-26 00:33:50]--[src_cgi/upload_cgi.c:512]--insert into file_info (md5, file_id, url, size, type, count) values ('526e509780990642ed0a20b7e0bb50d3', 'group1/M00/00/00/rBq0iF6kZm6AP6wGAAFplJEH-eA172.jpg', 'http://39.99.154.100:80/group1/M00/00/00/rBq0iF6kZm6AP6wGAAFplJEH-eA172.jpg', '92564', 'jpg', 1) 文件信息插入成功
+[2020-04-26 00:35:50]--[src_cgi/upload_cgi.c:44]--mysql:[user=root,pwd=123456,database=cloud_disk][2020-04-26 00:36:17]--[src_cgi/upload_cgi.c:621]--MarioHo成功上传[1.jpg, 大小：92564, md5码：526e509780990642ed0a20b7e0bb50d3]到本地
+[2020-04-26 00:36:17]--[src_cgi/upload_cgi.c:353]--get [group1/M00/00/00/rBq0iF6kZwGAAgd-AAFplJEH-eA612.jpg] succ!
+[2020-04-26 00:36:17]--[src_cgi/upload_cgi.c:461]--file url is: http://39.99.154.100:80/group1/M00/00/00/rBq0iF6kZwGAAgd-AAFplJEH-eA612.jpg
+[2020-04-26 00:36:17]--[src_cgi/upload_cgi.c:515]--insert into file_info (md5, file_id, url, size, type, count) values ('526e509780990642ed0a20b7e0bb50d3', 'group1/M00/00/00/rBq0iF6kZwGAAgd-AAFplJEH-eA612.jpg', 'http://39.99.154.100:80/group1/M00/00/00/rBq0iF6kZwGAAgd-AAFplJEH-eA612.jpg', '92564', 'jpg', 1) 文件信息插入成功
+[2020-04-26 18:37:18]--[src_cgi/upload_cgi.c:621]--Mario成功上传[test.jpg, 大小：23374, md5码：111934a05adcc1ba29b3d6c041139952]到本地
+[2020-04-26 18:37:18]--[src_cgi/upload_cgi.c:353]--get [group1/M00/00/00/rBq0iF6lZF6ASPM1AABbTun4HG8682.jpg] succ!
+[2020-04-26 18:37:18]--[src_cgi/upload_cgi.c:461]--file url is: http://39.99.154.100:80/group1/M00/00/00/rBq0iF6lZF6ASPM1AABbTun4HG8682.jpg
+[2020-04-26 18:37:18]--[src_cgi/upload_cgi.c:515]--insert into file_info (md5, file_id, url, size, type, count) values ('111934a05adcc1ba29b3d6c041139952', 'group1/M00/00/00/rBq0iF6lZF6ASPM1AABbTun4HG8682.jpg', 'http://39.99.154.100:80/group1/M00/00/00/rBq0iF6lZF6ASPM1AABbTun4HG8682.jpg', '23374', 'jpg', 1) 文件信息插入成功
+[2020-04-26 18:47:57]--[src_cgi/upload_cgi.c:621]--mario成功上传[20171215111345966.jpeg, 大小：678695, md5码：de3caa2cc03983a1dfabc0ec1f3b0612]到本地
+[2020-04-26 18:47:57]--[src_cgi/upload_cgi.c:353]--get [group1/M00/00/00/rBq0iF6lZt2AYcOKAApbJxeUOPA24.jpeg] succ!
+[2020-04-26 18:47:57]--[src_cgi/upload_cgi.c:461]--file url is: http://39.99.154.100:80/group1/M00/00/00/rBq0iF6lZt2AYcOKAApbJxeUOPA24.jpeg
+[2020-04-26 18:47:57]--[src_cgi/upload_cgi.c:515]--insert into file_info (md5, file_id, url, size, type, count) values ('de3caa2cc03983a1dfabc0ec1f3b0612', 'group1/M00/00/00/rBq0iF6lZt2AYcOKAApbJxeUOPA24.jpeg', 'http://39.99.154.100:80/group1/M00/00/00/rBq0iF6lZt2AYcOKAApbJxeUOPA24.jpeg', '678695', 'jpeg', 1) 文件信息插入成功
+[2020-04-26 22:52:00]--[src_cgi/upload_cgi.c:621]--Mario成功上传[1.png, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
+[2020-04-26 22:52:00]--[src_cgi/upload_cgi.c:353]--get [group1/M00/00/00/rBq0iF6loBCALTnOAAAAAAAAAAA976.png] succ!
+[2020-04-26 22:52:00]--[src_cgi/upload_cgi.c:461]--file url is: http://39.99.154.100:80/group1/M00/00/00/rBq0iF6loBCALTnOAAAAAAAAAAA976.png
+[2020-04-26 22:52:00]--[src_cgi/upload_cgi.c:515]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/rBq0iF6loBCALTnOAAAAAAAAAAA976.png', 'http://39.99.154.100:80/group1/M00/00/00/rBq0iF6loBCALTnOAAAAAAAAAAA976.png', '0', 'png', 1) 文件信息插入成功

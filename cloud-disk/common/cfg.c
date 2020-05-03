@@ -49,12 +49,12 @@ int get_cfg_value(const char *profile, char *title, char *key, char *value)
         goto END;
     }
 
-    fseek(fp, 0, SEEK_END);//光标移动到末尾
-    long size = ftell(fp); //获取文件大小
-    fseek(fp, 0, SEEK_SET);//光标移动到开头
+    fseek(fp, 0, SEEK_END);                 //光标移动到末尾
+    long size = ftell(fp);                  //获取文件大小
+    fseek(fp, 0, SEEK_SET);                 //光标移动到开头
 
 
-    buf = (char *)calloc(1, size+1); //动态分配空间
+    buf = (char *)calloc(1, size+1);        //动态分配空间
     if(buf == NULL)
     {
         perror("calloc");

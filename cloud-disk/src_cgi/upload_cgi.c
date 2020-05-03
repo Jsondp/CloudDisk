@@ -1,9 +1,9 @@
 /**
  * @file upload_cgi.c
  * @brief   上传文件后台CGI程序
- * @author  Mike
+ * @author  Mario
  * @version 2.0
- * @date 2017年2月26日
+ * @date 2020年2月26日
  */
 
 #include <stdio.h>
@@ -22,6 +22,8 @@
 
 #define UPLOAD_LOG_MODULE "cgi"
 #define UPLOAD_LOG_PROC   "upload"
+
+#define HOSTNAME "39.99.154.100"
 
 //mysql 数据库配置信息 用户名， 密码， 数据库名称
 static char mysql_user[128] = {0};
@@ -441,6 +443,10 @@ int make_file_url(char *fileid, char *fdfs_file_url)
         fdfs_file_host_name[k-q] = '\0';
 
         //printf("host_name:[%s]\n", fdfs_file_host_name);
+
+        // 临时写成阿里云服务器的外部访问地址
+        // TODO 改成内网与外网映射的map
+        strcpy(fdfs_file_host_name, HOSTNAME);
 
         //读取storage_web_server服务器的端口
         char storage_web_server_port[20] = {0};

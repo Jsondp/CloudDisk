@@ -1,0 +1,44 @@
+[2020-05-01 19:06:16]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "577423282@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "Marioho",
+    "phone": "17875306401",
+    "userName": "Mario"
+}
+
+[2020-05-01 19:06:16]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-05-01 19:06:16]--[src_cgi/reg_cgi.c:141]--user = Mario, nick_name = Marioho, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 17875306401, email = 577423282@qq.com
+[2020-05-01 19:06:16]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('Mario', 'Marioho', 'e10adc3949ba59abbe56e057f20f883e', '17875306401', '2020-05-01 19:06:16', '577423282@qq.com') 插入失败：Table 'cloud_disk.user' doesn't exist
+[2020-05-01 19:16:14]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "577423282@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "Mario",
+    "phone": "17875306401",
+    "userName": "Mario"
+}
+
+[2020-05-01 19:16:14]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-05-01 19:16:14]--[src_cgi/reg_cgi.c:141]--user = Mario, nick_name = Mario, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 17875306401, email = 577423282@qq.com
+[2020-05-01 19:16:14]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('Mario', 'Mario', 'e10adc3949ba59abbe56e057f20f883e', '17875306401', '2020-05-01 19:16:14', '577423282@qq.com') 插入失败：Table 'cloud_disk.user' doesn't exist
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "577423282@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "Mario",
+    "phone": "17875306401",
+    "userName": "Mario"
+}
+
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:141]--user = Mario, nick_name = Mario, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 17875306401, email = 577423282@qq.com
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('Mario', 'Mario', 'e10adc3949ba59abbe56e057f20f883e', '17875306401', '2020-05-01 19:17:16', '577423282@qq.com') 插入失败：Table 'cloud_disk.user' doesn't exist
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "577423282@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "Mario",
+    "phone": "17875306401",
+    "userName": "Mario"
+}
+
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:141]--user = Mario, nick_name = Mario, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 17875306401, email = 577423282@qq.com
+[2020-05-01 19:17:16]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('Mario', 'Mario', 'e10adc3949ba59abbe56e057f20f883e', '17875306401', '2020-05-01 19:17:16', '577423282@qq.com') 插入失败：Table 'cloud_disk.user' doesn't exist

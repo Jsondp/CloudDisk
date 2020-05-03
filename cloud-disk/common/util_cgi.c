@@ -266,7 +266,6 @@ char * return_status(char *status_num)
 
     cJSON_Delete(root);
 
-
     return out;
 }
 

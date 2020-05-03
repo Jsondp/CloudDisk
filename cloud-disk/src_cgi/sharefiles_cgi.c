@@ -1,9 +1,9 @@
 /**
  * @file sharefiles_cgi.c
  * @brief  共享文件列表展示CGI程序
- * @author Mike
+ * @author 2020
  * @version 2.0
- * @date 2017年3月7日21:46:57
+ * @date 2020年3月7日21:46:57
  */
 
 #include "fcgi_config.h"
@@ -593,15 +593,15 @@ int main()
         // 获取URL地址 "?" 后面的内容
         char *query = getenv("QUERY_STRING");
 
-        //解析命令
+        // 解析命令
         query_parse_key_value(query, "cmd", cmd, NULL);
         LOG(SHAREFILES_LOG_MODULE, SHAREFILES_LOG_PROC, "cmd = %s\n", cmd);
 
         printf("Content-type: text/html\r\n\r\n");
 
-        if (strcmp(cmd, "count") == 0) //count 获取用户文件个数
+        if (strcmp(cmd, "count") == 0) // count 获取用户文件个数
         {
-            get_share_files_count(); //获取共享文件个数
+            get_share_files_count(); // 获取共享文件个数
         }
         else
         {
@@ -614,7 +614,7 @@ int main()
             }
             else
             {
-                len = atoi(contentLength); //字符串转整型
+                len = atoi(contentLength); // 字符串转整型
             }
 
             if (len <= 0)
@@ -624,7 +624,7 @@ int main()
             }
             else
             {
-                char buf[4*1024] = {0};
+                char buf[4 * 1024] = {0};
                 int ret = 0;
                 ret = fread(buf, 1, len, stdin); //从标准输入(web服务器)读取内容
                 if(ret == 0)
@@ -651,8 +651,6 @@ int main()
                  {
                     get_ranking_filelist(start, count);//获取共享文件排行版
                  }
-
-
             }
         }
 

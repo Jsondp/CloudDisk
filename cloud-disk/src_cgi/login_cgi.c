@@ -1,9 +1,9 @@
 /**
  * @file login_cgi.c
  * @brief   登陆后台CGI程序
- * @author Mike
+ * @author Mario
  * @version 2.0
- * @date
+ * @date 2020.2.10
  */
 
 #include "fcgi_config.h"
@@ -185,7 +185,7 @@ int set_token(char *user, char *token)
     LOG(LOGIN_LOG_MODULE, LOGIN_LOG_PROC, "tmp = %s\n", tmp);
 
     //加密
-    char enc_tmp[1024*2] = {0};
+    char enc_tmp[1024 * 2] = {0};
     int enc_len = 0;
     ret = DesEnc((unsigned char *)tmp, strlen(tmp), (unsigned char *)enc_tmp, &enc_len);
     if(ret != 0)
@@ -236,15 +236,15 @@ void return_login_status(char *status_num, char *token)
     char *out = NULL;
     cJSON *root = cJSON_CreateObject();  //创建json项目
     cJSON_AddStringToObject(root, "code", status_num);// {"code":"000"}
-     cJSON_AddStringToObject(root, "token", token);// {"token":"token"}
+    cJSON_AddStringToObject(root, "token", token);// {"token":"token"}
     out = cJSON_Print(root);//cJSON to string(char *)
 
     cJSON_Delete(root);
 
     if(out != NULL)
     {
-        printf(out); //给前端反馈信息
-        free(out); //记得释放
+        printf(out);        //给前端反馈信息
+        free(out);          //记得释放
     }
 }
 
@@ -276,7 +276,7 @@ int main()
         }
         else //获取登陆用户信息
         {
-            char buf[4*1024] = {0};
+            char buf[4 * 1024] = {0};
             int ret = 0;
             ret = fread(buf, 1, len, stdin); //从标准输入(web服务器)读取内容
             if(ret == 0)
@@ -301,7 +301,6 @@ int main()
                 memset(token, 0, sizeof(token));
                 ret = set_token(user, token);
                 LOG(LOGIN_LOG_MODULE, LOGIN_LOG_PROC, "token = %s\n", token);
-
             }
 
             if(ret == 0)
